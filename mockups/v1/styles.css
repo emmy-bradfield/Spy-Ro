@@ -1,0 +1,215 @@
+.bg-img {
+  background: url("./assets/bg-divergent-albumart.png") top right no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.3;
+}
+
+html {
+  background-image: url("./assets/bg-divergent-albumart.png");
+  background-size: cover;
+}
+
+body {
+  background-image: url("./assets/bg-divergent-albumart.png");
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.322);
+}
+
+.feed {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.534);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 1em;
+}
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+  width: 15%;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+.navbar-text {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: var(--bs-navbar-color);
+  font-size: 30px;
+}
+
+.socials {
+  margin-right: 0.5em;
+  font-size: 30px;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+span.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: 0.375rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.375rem - 1px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: rgba(3, 3, 3, 0.24);
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+video {
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: black;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity .15s ease;
+}
+
+.car-img {
+  max-width: 40%;
+  max-height: 8%;
+  margin: 2%;
+}
+
+.card-body {
+  display: flex;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  height: 100%;
+  width: 70%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-group>.card {
+  display: flex;
+  margin-bottom: 0;
+  max-height: 50%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  background-color: white;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+.card-body-other {
+  display: flex;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.col {
+  flex: 1 0 0%;
+  max-height: 30%;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
